@@ -1,0 +1,55 @@
+/* 1. Importação da Fonte Poppins (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+/* Estilos Globais e Tipografia (Tudo Poppins) */
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f3f4f5; 
+    color: #242024;
+}
+
+/* Títulos (Todos usam Poppins com pesos diferentes para contraste) */
+h1, h2, h3, h4, .display-1, .display-2, .display-5, .navbar-brand { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900; /* Extra Bold para máximo impacto visual */
+    letter-spacing: -1px; 
+}
+
+/* O restante das regras de estilo (botões transparentes e cards sem borda) permanece, garantindo o visual clean: */
+
+/* Cards: Remoção de bordas e sombra */
+.card-block {
+    border: none !important; 
+    border-radius: 0 !important;
+    box-shadow: none !important; 
+    background-color: transparent !important;
+}
+
+/* BOTÕES (Transparentes/Texto Puro) */
+.btn-artsy, .btn-hero, .btn-outline-dark {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #242024 !important; 
+    transition: all 0.2s;
+    border-radius: 0 !important;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn-artsy:hover, .btn-hero:hover, .btn-outline-dark:hover {
+    color: #BF0000 !important;
+    text-decoration: underline; 
+    background-color: transparent !important;
+}
+
+.btn-hero {
+    font-size: 1.25rem;
+    padding: 0; 
+}
+
+/* Estilo customizado para um Footer Compacto com Reset */
+.footer-compact {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    
+}
